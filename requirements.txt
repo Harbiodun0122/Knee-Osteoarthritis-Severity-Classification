@@ -1,5 +1,20 @@
 # Safe order of dependencies
-torch==2.4.0+cpu
+# torch==2.4.0+cpu
+# streamlit==1.37.0
+# opencv-python==4.11.0.86
+# tensorflow==2.18.0
+# gdown==5.2.0
+# numpy==2.0.2
+# pillow==11.2.1
+
+# last one
+# --no-deps git+https://github.com/facebookresearch/detectron2.git@v0.6
+
+
+# Install PyTorch first (detectron2 needs this pre-installed)
+torch==1.13.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+# Core dependencies
 streamlit==1.37.0
 opencv-python==4.11.0.86
 tensorflow==2.18.0
@@ -7,5 +22,5 @@ gdown==5.2.0
 numpy==2.0.2
 pillow==11.2.1
 
-# last one
---no-deps git+https://github.com/facebookresearch/detectron2.git@v0.6
+# Detectron2 without --no-deps (this will now work since torch is already installed)
+git+https://github.com/facebookresearch/detectron2.git@v0.6
