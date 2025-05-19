@@ -1,7 +1,7 @@
-pytorch==1.10
+streamlit==1.45.1
+torch==2.6.0
+tensorflow==2.18.0
 gdown==5.2.0
 numpy==2.0.2
 pillow==11.2.1
-streamlit==1.45.1
-tensorflow==2.18.0
-detectron2 @ https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch1.10/index.html
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git@536dc9d527074e3b15df5f6677ffe1f4e104a4ab
