@@ -1,5 +1,4 @@
 import os
-import torch
 import gdown
 import numpy as np
 from PIL import Image
