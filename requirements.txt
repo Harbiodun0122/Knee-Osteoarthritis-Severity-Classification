@@ -1,6 +1,7 @@
 # Safe order of dependencies
 torch==2.0.0           # Use a more stable version for detectron2 v0.6
 streamlit==1.45.1
+opencv-python==4.11.0.86
 tensorflow==2.18.0
 gdown==5.2.0
 numpy==2.0.2
