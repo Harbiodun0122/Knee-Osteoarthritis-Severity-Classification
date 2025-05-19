@@ -4,4 +4,4 @@ numpy==2.0.2
 pillow==11.2.1
 streamlit==1.45.1
 tensorflow==2.18.0
-detectron2 @ git+https://github.com/facebookresearch/detectron2.git@536dc9d527074e3b15df5f6677ffe1f4e104a4ab
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git
