@@ -1,6 +1,8 @@
+# Safe order of dependencies
+torch==2.1.0           # Use a more stable version for detectron2 v0.6
 streamlit==1.45.1
-torch==2.6.0
 tensorflow==2.18.0
 gdown==5.2.0
 numpy==2.0.2
 pillow==11.2.1
+git+https://github.com/facebookresearch/detectron2.git@v0.6
