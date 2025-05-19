@@ -1,3 +1,16 @@
+import sys
+import subprocess
+
+# Try to import detectron2, if not installed, install it
+try:
+    import detectron2
+except ImportError:
+    subprocess.check_call([
+        sys.executable, "-m", "pip", "install",
+        "git+https://github.com/facebookresearch/detectron2.git@", "--no-build-isolation"
+    ])
+    
+
 import os
 import gdown
 import numpy as np
