@@ -6,3 +6,4 @@ torchvision @ https://download.pytorch.org/whl/cu124/torchvision-0.21.0%2Bcu124-
 gdown==5.2.0
 numpy==2.0.2
 pillow==11.2.1
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git
