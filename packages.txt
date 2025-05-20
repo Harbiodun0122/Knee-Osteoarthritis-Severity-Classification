@@ -1,5 +1,0 @@
-# System dependencies needed for OpenCV and detectron2
-libglib2.0-0
-libsm6
-libxrender1
-libxext6
